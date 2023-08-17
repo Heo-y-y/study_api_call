@@ -1,6 +1,13 @@
-# ✏️ OpenFeign 적용해보기
+# 알고리즘 API를 이용한 OpenFeign을 적용해보기
+
+## 학습 설명
+
+테스트 프로젝트의 알고리즘 API를 **Spring Cloud openFeign**으로 받아 알고리즘을 풀고, 테스트 코드까지 작성해보는 학습을 진행했다.
+
+- GitHub: <https://github.com/yet-another-study-group/study_api_call>
 
 ## OpenFeign이란?
+- Code: <https://github.com/Heo-y-y/study_api_call/tree/main/hyy/src/main/java/com/study/hyy>
 
 OpenFeign은 Netflix에 의해 처음 만들어진 Declarative(선언적인) HTTP Client 도구로써, 외부 API 호출을 쉽게할 수 있도록 도와준다. 
 
@@ -139,7 +146,9 @@ Capability (MicrometerCapability and CachingCapability are provided by default)
 ---
 
 
-# ✏️ Mockito를 적용한 단위 테스트
+# Mockito를 적용한 단위 테스트
+- Code: <https://github.com/Heo-y-y/study_api_call/blob/main/hyy/src/test/java/com/study/hyy/service/FeignServiceTest.java>
+
 ## Mockito란?
 
 Mock을 지원하는 프레임워크로, Spring Boot Test에서 사용하는 JUnit 위에서 동작하며 Mock 객체를 만들고 관리하며 검증할 수 있는 방법을 제공해주는 라이브러리다.
